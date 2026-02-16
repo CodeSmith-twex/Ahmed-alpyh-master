@@ -1,85 +1,3 @@
-/* Full width for skills section */
-.skills {
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
-    background: #f4f7ff;
-    box-shadow: 0 2px 24px rgba(74,107,255,0.04);
-    z-index: 1;
-}
-
-.skills .container {
-    max-width: 1400px;
-}
-
-@media screen and (max-width: 1200px) {
-    .skills .container {
-        max-width: 100vw;
-        padding: 0 10px;
-    }
-}
-/* Custom Skills Flex and My Skills Box */
-
-.skills-flex {
-    display: flex;
-    gap: 50px;
-    align-items: flex-start;
-    flex-wrap: wrap;
-}
-
-.my-skills-box {
-    background: #f8f9fa;
-    border-radius: 12px;
-    box-shadow: 0 4px 16px rgba(74, 107, 255, 0.07);
-    padding: 32px 24px;
-    min-width: 220px;
-    max-width: 300px;
-    margin-top: 20px;
-    flex: 1 1 220px;
-}
-
-.my-skills-box h3 {
-    color: var(--primary-color);
-    font-size: 1.3rem;
-    margin-bottom: 18px;
-    text-align: center;
-}
-
-.my-skills-list {
-    padding-left: 0;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    font-size: 1.05rem;
-    color: var(--dark-color);
-}
-
-.my-skills-list li {
-    background: #e9ecef;
-    border-radius: 6px;
-    padding: 8px 14px;
-    transition: background 0.2s;
-    font-weight: 500;
-}
-.my-skills-list li:hover {
-    background: var(--primary-color);
-    color: #fff;
-}
-
-@media screen and (max-width: 991px) {
-    .skills-flex {
-        flex-direction: column;
-        gap: 30px;
-    }
-    .my-skills-box {
-        margin-top: 0;
-        max-width: 100%;
-    }
-}
 /* General Styles */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
@@ -223,12 +141,15 @@ section {
     align-items: center;
 }
 
-.logo {
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: #fff;
+.logo img {
+  
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
     transition: var(--transition);
 }
+
+
 
 #navbar.sticky .logo {
     color: var(--dark-color);
@@ -236,6 +157,13 @@ section {
 
 .nav-links {
     display: flex;
+}
+.nav-links .primary-btn-ar {
+        margin-left: 8px;
+        background-color: var(--primary-color);
+        color: #fff;
+        padding: 0px 15px;
+        border-radius: 10px;
 }
 
 .nav-links li {
@@ -979,5 +907,12 @@ section {
     .personal-info {
         grid-template-columns: 1fr;
     }
+}
+
+.footer-logo {
+    width: 70px;
+    height: 50px;
+    object-fit: cover;
+    margin-top: 10px;
 }
 
