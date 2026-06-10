@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -54,103 +54,548 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
+    <!-- خطوط قوقل -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Navigation Bar -->
     <nav id="navbar">
       <div class="container">
-        <div class="logo"><img src="images/logoab.png" alt="logo" /></div>
+        <div class="logo">
+          <img src="images/logoab.png" alt="Albyh Logo" />
+        </div>
+
         <div class="menu-toggle">
           <div class="bar"></div>
           <div class="bar"></div>
           <div class="bar"></div>
         </div>
+
         <ul class="nav-links">
-          <li><a href="#home" class="nav-link">Home</a></li>
-          <li><a href="#about" class="nav-link">About</a></li>
-          <li><a href="#skills" class="nav-link">Skills</a></li>
-          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
-          <li><a href="#contact" class="nav-link">Contact</a></li>
-          <li>
-            <a href="#about" class="nav-link">Download CV</a>
-          </li>
-          
-          <a href="Arabic.html" class="primary-btn-ar">AR</a>
+          <li><a href="#home" class="nav-link">الرئيسية</a></li>
+
+          <li><a href="#services" class="nav-link">الخدمات</a></li>
+
+          <li><a href="#why-us" class="nav-link">لماذا نحن</a></li>
+
+          <li><a href="#portfolio" class="nav-link">أعمالنا</a></li>
+
+          <li><a href="#pricing" class="nav-link">الأسعار</a></li>
+
+          <li><a href="#faq" class="nav-link">الأسئلة الشائعة</a></li>
+
+          <li><a href="#contact" class="nav-link">تواصل معنا</a></li>
+
+          <!-- <li>
+        <a href="https://wa.me/966XXXXXXXXX" class="primary-btn-ar">
+          اطلب موقعك
+        </a>
+      </li> -->
+
+          <!-- <li>
+            <a href="Arabic.html" class="primary-btn-ar"> AR </a>
+          </li> -->
         </ul>
       </div>
     </nav>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-      <div class="container">
-        <h1>Hello, I am Ahmed Al-Byh</h1>
-        <h2>I am a Web Developer & Designer</h2>
+      <div class="container hero-content">
+        <span class="hero-badge"> مطور ووردبريس وواجهة المستخدم </span>
+
+        <h1>
+          نبني مواقع ويب حديثة تساعد
+          <span>الشركات على النمو </span>
+        </h1>
+
+        <p>
+          نصمم مواقع إلكترونية سريعة وعصرية واحترافية تساعد أعمالك على جذب
+          المزيد من العملاء وبناء حضور قوي على الإنترنت
+        </p>
+
         <div class="cta-buttons">
-          <a href="#portfolio" class="btn primary-btn">View My Work</a>
-          <a href="#contact" class="btn secondary-btn">Contact Me</a>
+          <a href="#portfolio" class="btn primary-btn"> عرض المشاريع </a>
+
+          <a href="#contact" class="btn secondary-btn"> اطلب موقعك الان </a>
+        </div>
+
+        <div class="hero-features">
+          <span>✓ تصميم احترافي</span>
+          <span>✓ جاهز لمحركات البحث</span>
+          <span>✓ متوافق مع الهواتف المحمولة</span>
         </div>
       </div>
-      <div
-        class="hero-bg-image"
-        style="
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          z-index: -1;
-          overflow: hidden;
-        "
-      >
+
+      <div class="hero-bg-image">
         <img
-          src="./images/top-view-unrecognizable-hacker-performing-cyberattack-night.jpg"
-          alt="Background"
-          style="width: 100%; height: 100%; object-fit: cover"
+          src="./images/top-view-unrecognizable-hacker-performing-cyberattack-night.webp"
+          alt="صورة الخلفيه"
         />
       </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
+    <!-- خدماتي  -->
+    <section id="services" class="services">
       <div class="container">
-        <h2 class="section-title">About Me</h2>
-        <div class="about-content">
-          <div class="about-image">
-            <div class="profile-img">
-              <img src="./images/Personal photo.jpeg" alt="Profile Picture" />
+        <h2 class="section-title">خدماتنا</h2>
+
+        <p class="section-description">
+          نقدم حلول تصميم مواقع احترافية تساعد الشركات والمشاريع العقارية على
+          بناء حضور رقمي قوي
+        </p>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <i class="fas fa-laptop-code"></i>
+            <h3>تصميم مواقع الشركات</h3>
+            <p>
+              تصميم مواقع حديثة ومتوافقة مع جميع الأجهزة لتعزيز حضور نشاطك على
+              الإنترنت
+            </p>
+          </div>
+
+          <div class="service-card">
+            <i class="fas fa-building"></i>
+            <h3>تصميم مواقع العقارات</h3>
+            <p>
+              مواقع احترافية لعرض المشاريع والوحدات العقارية بطريقة جذابة وسهلة
+              الاستخدام
+            </p>
+          </div>
+
+          <div class="service-card">
+            <i class="fas fa-search"></i>
+            <h3>تحسين محركات البحث SEO</h3>
+            <p>
+              تحسين الموقع لزيادة ظهوره في نتائج البحث والوصول إلى المزيد من
+              العملاء
+            </p>
+          </div>
+
+          <div class="service-card">
+            <i class="fas fa-tools"></i>
+            <h3>الدعم والصيانة</h3>
+            <p>تحديثات دورية وحماية للموقع ودعم فني لضمان أفضل أداء</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- لماذا تختارني -->
+    <section id="why-us" class="why-us">
+      <div class="container">
+        <h2 class="section-title">لماذا تختارنا؟</h2>
+        <p class="section-description">
+          نقدم مواقع احترافية تساعدك على بناء حضور رقمي قوي والوصول إلى المزيد
+          من العملاء
+        </p>
+
+        <div class="why-grid">
+          <div class="why-card">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>متوافق مع جميع الأجهزة</h3>
+            <p>
+              تصميم متجاوب يعمل بكفاءة على الجوال والأجهزة اللوحية والكمبيوتر
+            </p>
+          </div>
+
+          <div class="why-card">
+            <i class="fas fa-bolt"></i>
+            <h3>سرعة وأداء عالي</h3>
+            <p>
+              مواقع سريعة توفر تجربة استخدام ممتازة وتحسن ظهورك في محركات البحث
+            </p>
+          </div>
+
+          <div class="why-card">
+            <i class="fas fa-search"></i>
+            <h3>تحسين محركات البحث</h3>
+            <p>نطبق أفضل الممارسات لتحسين ظهور موقعك في نتائج البحث</p>
+          </div>
+
+          <div class="why-card">
+            <i class="fas fa-headset"></i>
+            <h3>دعم فني مستمر</h3>
+            <p>نحرص على تقديم الدعم والمساعدة لضمان استقرار موقعك</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <h2 class="section-title">المشاريع</h2>
+        <div class="portfolio-grid">
+          <!-- Portfolio Item 1 -->
+          <div class="portfolio-item">
+            <div class="portfolio-img">
+              <img src="./images/projict-reaact.png" alt="Project 1" />
+              <div class="img-overlay">
+                <a
+                  href="https://react-website-umber-eight.vercel.app/"
+                  class="overlay-btn"
+                  target="_blank"
+                  rel="noopener"
+                  >تصفح الموقع</a
+                >
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <a
+                href="https://react-website-umber-eight.vercel.app/"
+                target="_blank"
+                rel="noopener"
+                ><h3>موقع شخصي</h3></a
+              >
             </div>
           </div>
-          <div class="about-text">
-            <h3>Who am I?</h3>
-            <p>
-              I am Ahmed Alpyh, specializing in Front-End development. My
-              passion lies in creating innovative and user-friendly experiences
-              while focusing on achieving a balance between attractive design
-              and practical efficiency. I use the latest web development
-              technologies such as HTML, CSS, and JavaScript, and React.js , and
-              Next.js ,and rely on tools and frameworks like Bootstrap to
-              develop outstanding interfaces that meet client needs and enhance
-              user experience. I always strive to transform ideas into
-              interactive websites and applications that come to life with the
-              highest quality
-            </p>
-
-            <a href="#contact" class="btn primary-btn">Contact Me</a>
-            <a
-              href="Ahmed_Albeh_web_Developer_CV.docx"
-             
-              download
-              class="btn primary-btn"
-              >Download CV</a
-            >
-             
+          <!-- Portfolio Item 2 -->
+          <div class="portfolio-item">
+            <div class="portfolio-img">
+              <img
+                src="./images/screencapture-file-C-Users-MOH-Desktop-html-index-html-2025-09-18-17_38_15.png"
+                alt="Project 2"
+              />
+              <div class="img-overlay">
+                <a
+                  href="https://codesmith-twex.github.io/Creativity/"
+                  class="overlay-btn"
+                  target="_blank"
+                  rel="noopener"
+                  >تصفح الموقع</a
+                >
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <a
+                href="https://codesmith-twex.github.io/Creativity/"
+                target="_blank"
+                rel="noopener"
+                ><h3>موقع مطبعة</h3></a
+              >
+            </div>
           </div>
+          <!-- Portfolio Item 3 -->
+          <div class="portfolio-item">
+            <div class="portfolio-img">
+              <img
+                src="./images/screencapture-file-C-Users-MOH-Desktop-index-html-2025-09-18-17_34_51.png"
+                alt="Project 3"
+              />
+              <div class="img-overlay">
+                <a
+                  href="https://codesmith-twex.github.io/Clothing-boutique/"
+                  class="overlay-btn"
+                  target="_blank"
+                  rel="noopener"
+                  >تصفح الموقع</a
+                >
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <a
+                href="https://codesmith-twex.github.io/Clothing-boutique/"
+                target="_blank"
+                rel="noopener"
+                ><h3>متجر ملابس</h3></a
+              >
+            </div>
+          </div>
+          <!-- Portfolio Item 4 -->
+          <div class="portfolio-item">
+            <div class="portfolio-img">
+              <img
+                src="./images/screencapture-file-C-Users-MOH-Desktop-index-html-2025-09-18-17_36_24.png"
+                alt="Project 4"
+              />
+              <div class="img-overlay">
+                <a
+                  href="https://codesmith-twex.github.io/mateam-ahmad/"
+                  class="overlay-btn"
+                  target="_blank"
+                  rel="noopener"
+                  >تصفح الموقع</a
+                >
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <a
+                href="https://codesmith-twex.github.io/mateam-ahmad/"
+                target="_blank"
+                rel="noopener"
+                ><h3>مطعم بيتزا</h3></a
+              >
+            </div>
+          </div>
+          <!-- Portfolio Item 5 -->
+          <div class="portfolio-item">
+            <div class="portfolio-img">
+              <img src="./images/cafe.png" alt="Project 5" />
+              <div class="img-overlay">
+                <a
+                  href="https://codesmith-twex.github.io/coffee/"
+                  class="overlay-btn"
+                  target="_blank"
+                  rel="noopener"
+                  >تصفح الموقع</a
+                >
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <a
+                href="https://codesmith-twex.github.io/coffee/"
+                target="_blank"
+                rel="noopener"
+                ><h3>موقع كافي</h3></a
+              >
+            </div>
+          </div>
+          <!-- Portfolio Item 6-->
+          <div class="portfolio-item">
+            <div class="portfolio-img">
+              <img
+                src="./images/لقطة الشاشة 2025-10-19 110954.png"
+                alt="Project 6"
+              />
+              <div class="img-overlay">
+                <a
+                  href="https://codesmith-twex.github.io/Delicious/"
+                  class="overlay-btn"
+                  target="_blank"
+                  rel="noopener"
+                  >تصفح الموقع</a
+                >
+              </div>
+            </div>
+            <div class="portfolio-info">
+              <a
+                href="https://codesmith-twex.github.io/Delicious/"
+                target="_blank"
+                rel="noopener"
+                ><h3>موقع مطعم</h3></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- كيف نعمل -->
+    <section id="process" class="process">
+      <div class="container">
+        <h2 class="section-title">كيف نعمل؟</h2>
+        <p class="section-description">
+          خطوات بسيطة تضمن تنفيذ موقع احترافي يلبي احتياجات نشاطك
+        </p>
+
+        <div class="process-grid">
+          <div class="process-card">
+            <div class="process-number">1</div>
+            <h3>فهم احتياجاتك</h3>
+            <p>نبدأ بدراسة نشاطك وأهدافك لمعرفة المتطلبات المناسبة للمشروع</p>
+          </div>
+
+          <div class="process-card">
+            <div class="process-number">2</div>
+            <h3>تصميم الموقع</h3>
+            <p>إنشاء تصميم احترافي يعكس هوية نشاطك ويوفر تجربة استخدام مميزة</p>
+          </div>
+
+          <div class="process-card">
+            <div class="process-number">3</div>
+            <h3>التطوير والتجهيز</h3>
+            <p>برمجة وتجهيز الموقع وربطه بالخدمات المطلوبة وتحسين الأداء</p>
+          </div>
+
+          <div class="process-card">
+            <div class="process-number">4</div>
+            <h3>التسليم والدعم</h3>
+            <p>تسليم الموقع جاهزاً مع توفير الدعم الفني لضمان أفضل تجربة</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- باقات الأسعار -->
+    <section id="pricing" class="pricing">
+      <div class="container">
+        <h2 class="section-title">باقات الأسعار</h2>
+        <p class="section-description">
+          اختر الباقة المناسبة لنشاطك وابدأ في بناء حضور رقمي احترافي
+        </p>
+
+        <div class="pricing-grid">
+          <!-- الباقة الأساسية -->
+          <div class="pricing-card">
+            <h3>الباقة الأساسية</h3>
+            <p>مناسبة للأفراد والمشاريع الصغيرة</p>
+            <div class="price">799 ريال</div>
+
+            <ul>
+              <li>حتى 5 صفحات</li>
+              <li>تصميم متوافق مع الجوال</li>
+              <li>لوحة تحكم WordPress</li>
+              <li>ربط واتساب</li>
+              <li>نموذج تواصل</li>
+              <li>تسليم سريع</li>
+              <li>دعم فني لمدة 7 أيام</li>
+            </ul>
+
+            <a
+              href="https://wa.me/966504187428?text=السلام عليكم، أرغب في طلب الباقة الأساسية (799 ريال)."
+              target="_blank"
+              class="btn primary-btn"
+              >اطلب الآن</a
+            >
+          </div>
+
+          <!-- الباقة الاحترافية -->
+          <div class="pricing-card featured">
+            <span class="badge">الأكثر طلباً ⭐</span>
+
+            <h3>الباقة الاحترافية</h3>
+            <p>مناسبة للمشاريع المتوسطة والشركات</p>
+            <div class="price">1499 ريال</div>
+
+            <ul>
+              <li>حتى 10 صفحات</li>
+              <li>تصميم احترافي مخصص</li>
+              <li>تحسين SEO الأساسي</li>
+              <li>ربط خرائط جوجل</li>
+              <li>سرعة وأداء عالي</li>
+              <li>لوحة تحكم WordPress</li>
+              <li>نموذج تواصل متقدم</li>
+              <li>دعم فني لمدة شهر</li>
+            </ul>
+
+            <a
+              href="https://wa.me/966504187428?text=السلام عليكم، أرغب في طلب الباقة الاحترافية (1499 ريال)."
+              target="_blank"
+              class="btn primary-btn"
+              >اطلب الآن</a
+            >
+          </div>
+
+          <!-- الباقة الذهبية -->
+          <div class="pricing-card">
+            <h3>الباقة الذهبية</h3>
+            <p>مناسبة للشركات الكبيرة والمشاريع العقارية</p>
+            <div class="price">2999 ريال</div>
+
+            <ul>
+              <li>حتى 20 صفحة</li>
+              <li>تصميم مخصص بالكامل</li>
+              <li>لوحة تحكم WordPress</li>
+              <li>تحسين SEO متقدم</li>
+              <li>ربط Google Analytics</li>
+              <li>ربط Google Search Console</li>
+              <li>تحسين السرعة والأمان</li>
+              <li>تدريب على إدارة الموقع</li>
+              <li>دعم فني لمدة شهرين</li>
+            </ul>
+
+            <a
+              href="https://wa.me/966504187428?text=السلام عليكم، أرغب في طلب الباقة الذهبية (2999 ريال)."
+              target="_blank"
+              class="btn primary-btn"
+              >اطلب الآن</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+      <div class="container">
+        <h2 class="section-title">الأسئلة الشائعة</h2>
+        <p class="section-description">
+          إجابات على أكثر الأسئلة التي يطرحها عملاؤنا
+        </p>
+
+        <div class="faq-container">
+          <div class="faq-item">
+            <button class="faq-question">
+              كم يستغرق تنفيذ الموقع؟
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                تختلف مدة التنفيذ حسب حجم المشروع، وعادة يتم التسليم خلال 5 إلى
+                10 أيام
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              هل الموقع متوافق مع الجوال؟
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                نعم، جميع المواقع التي نقوم بتصميمها متوافقة مع الجوال والأجهزة
+                اللوحية والكمبيوتر
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              هل يمكنني إدارة الموقع بنفسي؟
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              <p>نعم، يتم تسليم الموقع مع لوحة تحكم WordPress سهلة الاستخدام</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              هل تقدمون الدعم الفني؟
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              <p>نعم، نوفر دعماً فنياً لضمان عمل الموقع بكفاءة بعد التسليم</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="container">
+        <h2>جاهز لإنشاء موقع احترافي لنشاطك؟</h2>
+
+        <p>
+          دعنا نساعدك على بناء حضور رقمي قوي من خلال موقع حديث وسريع يعكس هوية
+          علامتك التجارية
+        </p>
+
+        <div class="cta-buttons">
+          <a href="#contact" class="btn primary-btn"> اطلب موقعك الآن </a>
+
+          <a
+            href="https://wa.me/966504187428"
+            target="_blank"
+            class="btn secondary-btn"
+          >
+            تواصل عبر واتساب
+          </a>
         </div>
       </div>
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="skills">
+    <!-- <section id="skills" class="skills">
       <div class="container">
         <h2 class="section-title">My Skills</h2>
         <div class="skills-content">
@@ -241,126 +686,94 @@
           </div>
         </div>
       </div>
+    </section> -->
+    <!-- ماذا ح تحصل عليه -->
+    <section id="benefits" class="benefits">
+      <div class="container">
+        <h2 class="section-title">ماذا ستحصل عليه؟</h2>
+        <p class="section-description">
+          نصمم مواقع احترافية تساعدك على بناء حضور رقمي قوي والوصول إلى المزيد
+          من العملاء
+        </p>
+
+        <div class="benefits-grid">
+          <div class="benefit-card">
+            <i class="fas fa-palette"></i>
+            <h3>تصميم احترافي</h3>
+            <p>موقع عصري يعكس هوية نشاطك ويمنح عملاءك انطباعاً احترافياً</p>
+          </div>
+
+          <div class="benefit-card">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>متوافق مع جميع الأجهزة</h3>
+            <p>تجربة استخدام ممتازة على الجوال والكمبيوتر والأجهزة اللوحية</p>
+          </div>
+
+          <div class="benefit-card">
+            <i class="fas fa-bolt"></i>
+            <h3>سرعة وأداء عالي</h3>
+            <p>
+              موقع سريع يوفر تجربة أفضل ويساعد على تحسين الظهور في محركات البحث
+            </p>
+          </div>
+
+          <div class="benefit-card">
+            <i class="fas fa-search"></i>
+            <h3>تحسين محركات البحث</h3>
+            <p>
+              تهيئة الموقع لزيادة فرص ظهوره في نتائج البحث وجذب المزيد من
+              العملاء
+            </p>
+          </div>
+
+          <div class="benefit-card">
+            <i class="fas fa-comments"></i>
+            <h3>ربط واتساب ونماذج التواصل</h3>
+            <p>تسهيل تواصل العملاء معك وتحويل الزوار إلى فرص حقيقية</p>
+          </div>
+
+          <div class="benefit-card">
+            <i class="fas fa-headset"></i>
+            <h3>دعم فني مستمر</h3>
+            <p>متابعة ودعم بعد التسليم لضمان أفضل أداء للموقع</p>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio">
+    <!-- About Section -->
+    <section id="about" class="about">
       <div class="container">
-        <h2 class="section-title">My Portfolio</h2>
-        <div class="portfolio-grid">
-          <!-- Portfolio Item 1 -->
-          <div class="portfolio-item">
-            <div class="portfolio-img">
-              <img
-                src="./images/projict-reaact.png"
-                alt="Project 1"
-              />
-              <div class="img-overlay">
-                <a
-                  href="https://react-website-umber-eight.vercel.app/"
-                  class="overlay-btn"
-                  target="_blank"
-                  rel="noopener"
-                  >View the site</a
-                >
-              </div>
+        <h2 class="section-title">عني</h2>
+        <div class="about-content">
+          <div class="about-image">
+            <div class="profile-img">
+              <img src="./images/Personal photo.jpeg" alt="Profile Picture" />
             </div>
-            <div class="portfolio-info"></div>
           </div>
-          <!-- Portfolio Item 2 -->
-          <div class="portfolio-item">
-            <div class="portfolio-img">
-              <img
-                src="./images/screencapture-file-C-Users-MOH-Desktop-html-index-html-2025-09-18-17_38_15.png"
-                alt="Project 2"
-              />
-              <div class="img-overlay">
-                <a
-                  href="https://codesmith-twex.github.io/Creativity/"
-                  class="overlay-btn"
-                  target="_blank"
-                  rel="noopener"
-                  >View the site</a
-                >
-              </div>
+          <div class="about-text">
+            <h3>من أنا؟</h3>
+            <p>
+              أنا أحمد البيه، مطور واجهات أمامية ومصمم مواقع ووردبريس شغوف
+              بإنشاء مواقع ويب عصرية وسهلة الاستخدام و عالية الأداء. أتخصص في
+              بناء واجهات متجاوبة باستخدام HTML وCSS وJavaScript وReact.js
+              وNext.js، كما أطور مواقع WordPress احترافية مصممة خصيصًا للشركات
+              ومشاريع العقارات. أركز على الجمع بين التصميم الجذاب والوظائف
+              العملية لتقديم تجارب مستخدم سلسة. من خلال الاستفادة من التقنيات
+              والأطر الحديثة مثل Bootstrap، أحوّل الأفكار إلى حلول رقمية سريعة
+              وتفاعلية وجذابة بصريًا تساعد العملاء على تعزيز حضورهم على الإنترنت
+              وتحقيق أهدافهم.
+            </p>
+
+            <div class="cta-buttons">
+              <a href="#contact" class="btn primary-btn">تواصل معي</a>
+              <a
+                href="Ahmed_Albeh_web_Developer_CV.docx"
+                download
+                class="btn primary-btn"
+                >تحميل السيرة الذاتية</a
+              >
             </div>
-            <div class="portfolio-info"></div>
-          </div>
-          <!-- Portfolio Item 3 -->
-          <div class="portfolio-item">
-            <div class="portfolio-img">
-              <img
-                src="./images/screencapture-file-C-Users-MOH-Desktop-index-html-2025-09-18-17_34_51.png"
-                alt="Project 3"
-              />
-              <div class="img-overlay">
-                <a
-                  href="https://codesmith-twex.github.io/Clothing-boutique/"
-                  class="overlay-btn"
-                  target="_blank"
-                  rel="noopener"
-                  >View the site</a
-                >
-              </div>
-            </div>
-            <div class="portfolio-info"></div>
-          </div>
-          <!-- Portfolio Item 4 -->
-          <div class="portfolio-item">
-            <div class="portfolio-img">
-              <img
-                src="./images/screencapture-file-C-Users-MOH-Desktop-index-html-2025-09-18-17_36_24.png"
-                alt="Project 4"
-              />
-              <div class="img-overlay">
-                <a
-                  href="https://codesmith-twex.github.io/mateam-ahmad/"
-                  class="overlay-btn"
-                  target="_blank"
-                  rel="noopener"
-                  >View the site</a
-                >
-              </div>
-            </div>
-            <div class="portfolio-info"></div>
-          </div>
-          <!-- Portfolio Item 5 -->
-          <div class="portfolio-item">
-            <div class="portfolio-img">
-              <img
-                src="./images/cafe.png"
-                alt="Project 5"
-              />
-              <div class="img-overlay">
-                <a
-                  href="https://codesmith-twex.github.io/coffee/"
-                  class="overlay-btn"
-                  target="_blank"
-                  rel="noopener"
-                  >View the site</a
-                >
-              </div>
-            </div>
-            <div class="portfolio-info"></div>
-          </div>
-          <!-- Portfolio Item 6-->
-          <div class="portfolio-item">
-            <div class="portfolio-img">
-              <img
-                src="./images/لقطة الشاشة 2025-10-19 110954.png"
-                alt="Project 6"
-              />
-              <div class="img-overlay">
-                <a
-                  href="https://codesmith-twex.github.io/Delicious/"
-                  class="overlay-btn"
-                  target="_blank"
-                  rel="noopener"
-                  >View the site</a
-                >
-              </div>
-            </div>
-            <div class="portfolio-info"></div>
           </div>
         </div>
       </div>
@@ -369,7 +782,7 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
       <div class="container">
-        <h2 class="section-title">Get In Touch</h2>
+        <h2 class="section-title">تواصل معنا</h2>
         <div class="contact-content">
           <div class="contact-info">
             <div class="contact-item">
@@ -377,8 +790,8 @@
                 <i class="fas fa-map-marker-alt"></i>
               </div>
               <div class="contact-text">
-                <h3>Location</h3>
-                <p>Saudi Arabia</p>
+                <h3>موقع</h3>
+                <p>المملكة العربية السعودية</p>
               </div>
             </div>
             <div class="contact-item">
@@ -386,7 +799,7 @@
                 <i class="fas fa-envelope"></i>
               </div>
               <div class="contact-text">
-                <h3>Email</h3>
+                <h3>بريد إلكتروني</h3>
                 <p>
                   <a href="mailto:ahmedalpeh31@gmail.com"
                     >ahmedalpeh31@gmail.com</a
@@ -399,16 +812,17 @@
                 <i class="fas fa-phone"></i>
               </div>
               <div class="contact-text">
-                <h3>Phone</h3>
+                <h3>هاتف</h3>
                 <p>
                   <a href="tel:+966504187428">+966 504187428</a>
                 </p>
               </div>
             </div>
-            <div class="social-links">
+            <div class="contact-social-links">
               <a
-                href="https://www.instagram.com/ahmed_twex_5/?igsh=MWlkbHh6ZGxkaHVxbg%3D%3D#"
+                href="https://www.instagram.com/ahmed_sites?igsh=NXVsb2puOHdkNGlm"
                 class="social-link"
+                target="_blank"
                 ><i class="fab fa-instagram"></i
               ></a>
               <a href="https://github.com/CodeSmith-twex" class="social-link"
@@ -423,33 +837,35 @@
                 ><i class="fab fa-whatsapp"></i
               ></a>
               <a
-                href="https://www.linkedin.com/in/ahmed-alpeh-6365b3355/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                href="https://www.tiktok.com/@ahmed.website.des?_r=1&_t=ZS-974MVNP2MQG"
                 class="social-link"
-                ><i class="fab fa-linkedin"></i
+                target="_blank"
+                ><i class="fab fa-tiktok"></i
               ></a>
               <a
-                href="https://www.facebook.com/als.wdy.twyks"
+                href="https://www.facebook.com/profile.php?id=61590275486550"
                 class="social-link"
+                target="_blank"
                 ><i class="fab fa-facebook"></i
               ></a>
             </div>
           </div>
           <div class="contact-form">
-            <h3>Send a Message</h3>
+            <h3>أرسل رسالة</h3>
             <form id="contactForm" class="contact-form-inner">
               <div class="form-group">
-                <label for="name">Name</label>
+                <label for="name">الاسم</label>
                 <input
                   type="text"
                   id="name"
                   name="name"
-                  placeholder="Your full name"
+                  placeholder="اسمك الكامل"
                   required
                 />
               </div>
 
               <div class="form-group">
-                <label for="phone">Phone</label>
+                <label for="phone">هاتف</label>
                 <input
                   type="tel"
                   id="phone"
@@ -461,7 +877,7 @@
               </div>
 
               <div class="form-group">
-                <label for="email">Email</label>
+                <label for="email">بريد إلكتروني</label>
                 <input
                   type="email"
                   id="email"
@@ -472,19 +888,19 @@
               </div>
 
               <div class="form-group">
-                <label for="message">Message</label>
+                <label for="message">الرسالة</label>
                 <textarea
                   id="message"
                   name="message"
                   rows="5"
-                  placeholder="Your message..."
+                  placeholder="رسالتك..."
                   required
                 ></textarea>
               </div>
 
               <div class="form-actions">
                 <button type="submit" class="btn primary-btn">
-                  Send Message
+                  أرسل الرسالة
                 </button>
               </div>
             </form>
@@ -494,7 +910,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container">
         <div class="footer-content">
           <div class="copyright">
@@ -515,6 +931,86 @@
             <a href="#portfolio">Portfolio</a>
             <a href="#contact">Contact</a>
           </div>
+        </div>
+      </div>
+    </footer> -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <!-- نبذة -->
+          <div class="footer-box">
+            <h3>أحمد للحلول الرقمية</h3>
+            <p>
+              نقدم خدمات تصميم وتطوير مواقع ويب احترافية باستخدام WordPress
+              وتقنيات Front-End الحديثة، لإنشاء مواقع عصرية وسريعة تساعد الشركات
+              والمشاريع العقارية على بناء حضور رقمي قوي وتحقيق المزيد من النمو
+              والعملاء.
+            </p>
+          </div>
+
+          <!-- روابط سريعة -->
+          <div class="footer-box">
+            <h3>روابط سريعة</h3>
+
+            <ul>
+              <li><a href="#home">الرئيسية</a></li>
+              <li><a href="#services">الخدمات</a></li>
+              <li><a href="#portfolio">أعمالنا</a></li>
+              <li><a href="#pricing">الأسعار</a></li>
+              <li><a href="#faq">الأسئلة الشائعة</a></li>
+              <li><a href="#contact">تواصل معنا</a></li>
+            </ul>
+          </div>
+
+          <!-- الخدمات -->
+          <div class="footer-box">
+            <h3>خدماتنا</h3>
+
+            <ul>
+              <li>تصميم مواقع الشركات</li>
+              <li>تصميم مواقع العقارات</li>
+              <li>تحسين محركات البحث SEO</li>
+              <li>الدعم والصيانة</li>
+            </ul>
+          </div>
+
+          <!-- التواصل -->
+          <div class="footer-box">
+            <h3>تواصل معنا</h3>
+
+            <p><i class="fas fa-envelope"></i> ahmedalpeh31@gmail.com</p>
+
+            <p><i class="fas fa-phone"></i> +966504187428</p>
+
+            <div class="social-links">
+              <a href="https://wa.me/966504187428" target="_blank"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+
+              <a
+                href="https://www.instagram.com/ahmed_sites?igsh=NXVsb2puOHdkNGlm"
+                target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+
+              <a
+                href="https://www.tiktok.com/@ahmed.website.des?_r=1&_t=ZS-974MVNP2MQG"
+                target="_blank"
+                ><i class="fab fa-tiktok"></i
+              ></a>
+
+              <a
+                href="https://www.facebook.com/profile.php?id=61590275486550"
+                target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2026 Ahmed Digital Solutions. جميع الحقوق محفوظة.</p>
         </div>
       </div>
     </footer>
