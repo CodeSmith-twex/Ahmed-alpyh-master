@@ -31,20 +31,18 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 10px;
+  width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #e2e8f0;
+  background: #e2e8f0;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(
-        180deg,
-        #3b82f6,
-        #1e40af
-    );
-    border-radius: 50px;
+  background: linear-gradient(180deg,
+      #3b82f6,
+      #1e40af);
+  border-radius: 50px;
 }
 
 a {
@@ -174,6 +172,7 @@ section {
 .nav-links {
   display: flex;
 }
+
 .nav-links .primary-btn-ar {
   margin-left: 8px;
   background-color: var(--primary-color);
@@ -382,6 +381,7 @@ section {
 .section-title p {
   color: #777;
 }
+
 .section-description {
   max-width: 700px;
   margin: 15px auto 30px;
@@ -778,6 +778,7 @@ section {
     border-radius: 14px;
     box-shadow: 0 12px 40px rgba(33, 37, 41, 0.06);
   }
+
   .contact-form {
     text-align: center;
     position: relative;
@@ -848,6 +849,7 @@ section {
     .contact-form-inner {
       grid-template-columns: 1fr;
     }
+
     .form-actions {
       justify-content: center;
     }
@@ -858,6 +860,7 @@ section {
       padding: 18px;
       border-radius: 10px;
     }
+
     .contact-form h3 {
       font-size: 1.25rem;
     }
@@ -892,7 +895,8 @@ section {
 
 .img-overlay {
   position: absolute;
-  inset: 0; /* top:0; right:0; bottom:0; left:0 */
+  inset: 0;
+  /* top:0; right:0; bottom:0; left:0 */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -933,6 +937,7 @@ section {
   .img-overlay {
     background: rgba(0, 0, 0, 0.55);
   }
+
   .overlay-btn {
     padding: 12px 20px;
     font-size: 1rem;
@@ -1239,9 +1244,11 @@ section {
   gap: 40px;
   direction: rtl;
 }
+
 .footer-box {
   text-align: right;
 }
+
 .footer-box h3 {
   margin-bottom: 25px;
   font-size: 24px;
@@ -1308,8 +1315,8 @@ section {
 /* Back to Top Button */
 .back-to-top {
   position: fixed;
-  bottom: 50px;
-  right: 15px;
+  bottom: 20px;
+  left: 15px;
   width: 50px;
   height: 50px;
   background-color: var(--primary-color);
@@ -1334,9 +1341,10 @@ section {
   background-color: #3a5bef;
   transform: translateY(-5px);
 }
+
 .whatsapp-float {
   position: fixed;
-  bottom: 107px;
+  bottom: 20px;
   right: 10px;
   width: 60px;
   height: 60px;
@@ -1361,9 +1369,11 @@ section {
   0% {
     box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.6);
   }
+
   70% {
     box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
   }
+
   100% {
     box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
   }
@@ -1379,6 +1389,7 @@ section {
     opacity: 0;
     transform: translateY(-30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -1390,6 +1401,7 @@ section {
     opacity: 0;
     transform: translateY(30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -1489,16 +1501,22 @@ section {
 }
 
 @media screen and (max-width: 576px) {
-  .hero h1 {
-    font-size: 2.5rem;
-    text-align: center;
-  }
-  .hero p{
-    text-align: center;
-    font-size: 15px;
+  .hero-content {
+    margin-top: 10px;
   }
 
-  .hero-features{
+  .hero h1 {
+    margin-top: 10px;
+    font-size: 34px;
+    text-align: center;
+  }
+
+  .hero p {
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .hero-features {
     text-align: center;
     font-size: 15px;
   }
@@ -1507,8 +1525,9 @@ section {
     font-size: 1.2rem;
   }
 
-  .hero-badge{
-    margin-right: 30px;
+  .hero-badge {
+    padding: 10px 10px;
+    margin-right: 45px;
   }
 
   .section-title {
@@ -1516,6 +1535,7 @@ section {
   }
 
   .cta-buttons .btn {
+    padding: 12px 30px;
     display: block;
     width: 80%;
     margin: 10px auto;
@@ -1533,22 +1553,25 @@ section {
     grid-template-columns: 1fr;
   }
 
-  .footer-box h3{
+  .footer-box h3 {
     text-align: center;
   }
-  .footer-box p{
+
+  .footer-box p {
     text-align: center;
   }
-  .footer-box ul li{
+
+  .footer-box ul li {
     text-align: center;
   }
+
   .social-links {
     display: flex;
     gap: 15px;
     margin-top: 20px;
     justify-content: center;
-    
-}
+
+  }
 }
 
 .footer-logo {
